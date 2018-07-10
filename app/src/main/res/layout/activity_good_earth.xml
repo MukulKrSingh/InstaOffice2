@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoodEarth">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Good Earth City Centre, Sector 50"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="97dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="311-312, 3rd Floor, Good Earth City Centre, Sector-50, Gurgaon"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true" />
+
+    <ImageButton
+        android:id="@+id/imageButtonOpen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="182dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="154dp"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="114dp"
+        android:text="Open In Google Maps"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="114dp" />
+
+</RelativeLayout>
