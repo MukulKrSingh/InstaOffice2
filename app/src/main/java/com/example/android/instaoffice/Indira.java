@@ -22,6 +22,7 @@ public class Indira extends AppCompatActivity {
                 Uri gmmIntentUri = Uri.parse("geo:12.9506205,77.6392171");
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 mapIntent.setPackage("com.google.android.apps.maps");
+                
                 startActivity(mapIntent);
             }
         });
